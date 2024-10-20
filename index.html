@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Form Wave</title> 
+  <link rel="stylesheet" href="style.css"> 
+ <style type="text/css" id="dcoder_stylesheet">@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: blue;
+  color: #fff;
+  font-family: 'Macondo', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container{
+  background-color: rgba(0,0,0,0.4);
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+.container h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-control{
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+.form-control input{
+  background-color: transparent;
+  border: 0;
+  border-botton: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid{
+  outline: 0;
+  border-bottom-color: #ffc600;
+}
+
+.btn{
+  width: 100%;
+  background: darkmagenta;
+  padding: 15px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: darkred;
+}
+
+.form-control label{
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span{
+  color: #ffc600;
+  transform: translateY(-30px);
+}
+
+.form-control label span{
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s ease-in All;
+}
+
+img{
+  width: 150px;
+  height: 100px;
+}</style></head> 
+ <body> 
+  <div class="container"> 
+   <h1><img src="https://i.ibb.co/1dmbdWK/IMG-20241020-WA0102.webp"></h1> 
+   <form> 
+    <div class="form-control"> 
+     <input type="text" required> <label> <span style="transition-delay:0ms">E</span> <span style="transition-delay:50ms">M</span> <span style="transition-delay:100ms">A</span> <span style="transition-delay:150ms">I</span> <span style="transition-delay:200ms">L</span> </label> 
+    </div> 
+    <div class="form-control"> 
+     <input type="password" required> <label> <span style="transition-delay:0ms">P</span> <span style="transition-delay:50ms">A</span> <span style="transition-delay:100ms">S</span> <span style="transition-delay:150ms">S</span> <span style="transition-delay:200ms">W</span> <span style="transition-delay:250ms">O</span> <span style="transition-delay:300ms">R</span> <span style="transition-delay:350ms">D</span> </label> 
+    </div> <button class="btn">Login</button> 
+   </form> 
+  </div><a href="https://www.dropbox.com/scl/fi/dpd8b0psuw6w0pik4wl47/Screenshot_20241020-235926.png?rlkey=lxxvfdaxugsrlsaggxa2xd3j2&amp;st=tow4d3qo&amp;dl=0"> <script src="main.js"></script> </a> 
+ 
+</body></html>
